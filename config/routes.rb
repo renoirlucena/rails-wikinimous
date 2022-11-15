@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+# resources - atalho pra escrever as 7 rotas do CRUD
+  resources :articles
 end
